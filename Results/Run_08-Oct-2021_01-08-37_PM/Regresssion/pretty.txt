@@ -1,0 +1,19 @@
+Feature: Googlesearch
+  As a user, I want to get results from google
+
+  Background:                       # Google.feature:4
+    Given I am on Googlesearch page # GoogleStepDefs.iAmOnGooglesearchPage()
+
+  @google
+  Scenario: search the google                  # Google.feature:8
+    When I enter cognizant and click on search # GoogleStepDefs.iEnterCognizantAndClickOnSearch()
+    And I should get the results               # GoogleStepDefs.iShouldGetTheResults()
+      java.lang.AssertionError: expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:93)
+      	at org.testng.Assert.failNotEquals(Assert.java:512)
+      	at org.testng.Assert.assertTrue(Assert.java:41)
+      	at org.testng.Assert.assertTrue(Assert.java:51)
+      	at com.cucumbercraft.stepdefinitions.GoogleStepDefs.iShouldGetTheResults(GoogleStepDefs.java:61)
+      	at ✽.And I should get the results(Google.feature:10)
+
+    Then I should click on the first link      # GoogleStepDefs.iShouldClickOnTheFirstLink()

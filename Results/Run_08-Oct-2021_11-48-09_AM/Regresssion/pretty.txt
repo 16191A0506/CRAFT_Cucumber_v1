@@ -1,0 +1,69 @@
+Feature: Digital Shopify
+  As a user, I want to run regression tests in Digital Shopify application
+
+  @digital
+  Scenario Outline: Login in Digital Shopify Application # DigitalShopify.feature:8
+    When I click on login
+    Then I should be logged in
+
+    Examples: 
+
+  Background:              # DigitalShopify.feature:4
+    Given I am on homepage # DigitalShopifyStepDefs.i_am_on_homepage()
+      org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+      from disconnected: received Inspector.detached event
+        (Session info: chrome=91.0.4472.114)
+      Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+      System info: host: 'LTIN309924', ip: '192.168.43.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\888377\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54225}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: 6838df73874b3d158d7ee8a547547367
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+      	at com.cucumbercraft.stepdefinitions.DigitalShopifyStepDefs.i_am_on_homepage(DigitalShopifyStepDefs.java:24)
+      	at ✽.Given I am on homepage(DigitalShopify.feature:5)
+
+
+  @digital
+  Scenario Outline: Login in Digital Shopify Application # DigitalShopify.feature:14
+    When I click on login                                # DigitalShopifyStepDefs.i_click_on_login()
+    Then I should be logged in                           # DigitalShopifyStepDefs.i_should_be_logged_in()
+
+  Background:              # DigitalShopify.feature:4
+    Given I am on homepage # DigitalShopifyStepDefs.i_am_on_homepage()
+      org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+      from disconnected: received Inspector.detached event
+        (Session info: chrome=91.0.4472.114)
+      Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+      System info: host: 'LTIN309924', ip: '192.168.43.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\888377\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: be9ff3b676a98ef40435063302f02dd3
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+      	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+      	at com.cucumbercraft.stepdefinitions.DigitalShopifyStepDefs.i_am_on_homepage(DigitalShopifyStepDefs.java:24)
+      	at ✽.Given I am on homepage(DigitalShopify.feature:5)
+
+
+  @digital
+  Scenario Outline: Login in Digital Shopify Application # DigitalShopify.feature:15
+    When I click on login                                # DigitalShopifyStepDefs.i_click_on_login()
+    Then I should be logged in                           # DigitalShopifyStepDefs.i_should_be_logged_in()

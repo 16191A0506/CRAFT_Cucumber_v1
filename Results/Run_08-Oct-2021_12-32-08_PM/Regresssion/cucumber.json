@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15250093900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on loginpage",
+            "match": {
+              "location": "OrangeHRMStepDefs.i_am_on_loginpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3225208600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login in Digital Shopify Application",
+        "description": "",
+        "id": "orangehrm;login-in-digital-shopify-application",
+        "after": [
+          {
+            "result": {
+              "duration": 702188500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14463336300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter valid Username and Password and click on login",
+            "match": {
+              "location": "OrangeHRMStepDefs.iEnterValidUsernameAndPasswordAndClickOnLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16352488600,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.cucumbercraft.stepdefinitions.OrangeHRMStepDefs.i_should_be_logged_into_OrangeHRM(OrangeHRMStepDefs.java:41)\r\n\tat ✽.Then I should be logged into OrangeHRM(OrangeHRM.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I should be logged into OrangeHRM",
+            "match": {
+              "location": "OrangeHRMStepDefs.i_should_be_logged_into_OrangeHRM()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@orange"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM",
+    "description": "As a user, I want to run regression tests in OrangeHRM application",
+    "id": "orangehrm",
+    "keyword": "Feature",
+    "uri": "OrangeHRM.feature"
+  }
+]

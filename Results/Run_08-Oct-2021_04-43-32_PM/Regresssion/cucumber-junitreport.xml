@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="22.556586">
+<testcase classname="Googlesearch" name="search the google" time="15.688735">
+<system-out><![CDATA[Given I am on Googlesearch page.............................................passed
+When I enter cognizant and click on search..................................passed
+And I should get the results................................................passed
+Then I should click on the first link.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Googlesearch" name="Changing the theme" time="6.867851">
+<failure message="java.lang.IllegalMonitorStateException&#13;&#10;&#9;at java.lang.Object.wait(Native Method)&#13;&#10;&#9;at com.cucumbercraft.stepdefinitions.GoogleStepDefs.iChangeTheTheme(GoogleStepDefs.java:82)&#13;&#10;&#9;at ✽.Then I change the theme(Google.feature:16)&#13;&#10;"><![CDATA[Given I am on Googlesearch page.............................................passed
+When I click on Settings tab................................................passed
+Then I change the theme.....................................................failed
+
+StackTrace:
+java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at com.cucumbercraft.stepdefinitions.GoogleStepDefs.iChangeTheTheme(GoogleStepDefs.java:82)
+	at ✽.Then I change the theme(Google.feature:16)
+]]></failure>
+</testcase>
+</testsuite>

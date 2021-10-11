@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.132905">
+<testcase classname="OrangeHRM" name="Login in Digital Shopify Application" time="22.132905">
+<failure message="java.lang.IllegalMonitorStateException&#13;&#10;&#9;at java.lang.Object.wait(Native Method)&#13;&#10;&#9;at com.cucumbercraft.stepdefinitions.OrangeHRMStepDefs.i_should_be_logged_into_OrangeHRM(OrangeHRMStepDefs.java:33)&#13;&#10;&#9;at ✽.Then I should be logged into OrangeHRM(OrangeHRM.feature:10)&#13;&#10;"><![CDATA[Given I am on loginpage.....................................................passed
+When I enter valid Username and Password and click on login.................passed
+Then I should be logged into OrangeHRM......................................failed
+
+StackTrace:
+java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at com.cucumbercraft.stepdefinitions.OrangeHRMStepDefs.i_should_be_logged_into_OrangeHRM(OrangeHRMStepDefs.java:33)
+	at ✽.Then I should be logged into OrangeHRM(OrangeHRM.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

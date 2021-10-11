@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="8.56494">
+<testcase classname="OrangeHRM" name="Login in Digital Shopify Application" time="8.56494">
+<skipped><![CDATA[Given I am on loginpage.....................................................passed
+When I enter valid Username Admin and Password admin123 and click on login..undefined
+Then I should be logged into OrangeHRM......................................skipped
+]]></skipped>
+</testcase>
+</testsuite>

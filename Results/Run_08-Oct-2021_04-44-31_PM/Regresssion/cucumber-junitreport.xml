@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.027866">
+<testcase classname="Googlesearch" name="search the google" time="12.478565">
+<system-out><![CDATA[Given I am on Googlesearch page.............................................passed
+When I enter cognizant and click on search..................................passed
+And I should get the results................................................passed
+Then I should click on the first link.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Googlesearch" name="Changing the theme" time="5.549301">
+<system-out><![CDATA[Given I am on Googlesearch page.............................................passed
+When I click on Settings tab................................................passed
+Then I change the theme.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

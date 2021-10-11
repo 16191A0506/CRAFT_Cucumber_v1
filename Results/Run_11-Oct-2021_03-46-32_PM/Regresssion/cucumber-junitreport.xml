@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.589175">
+<testcase classname="Digital Shopify" name="Login in Digital Shopify Application" time="17.539249">
+<system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on login.......................................................passed
+Then I should be logged in..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Digital Shopify" name="Login in Digital Shopify Application 2" time="17.049926">
+<system-out><![CDATA[Given I am on homepage......................................................passed
+When I click on login.......................................................passed
+Then I should be logged in..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

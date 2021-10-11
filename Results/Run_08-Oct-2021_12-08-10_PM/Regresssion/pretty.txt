@@ -1,0 +1,10 @@
+Feature: OrangeHRM
+  As a user, I want to run regression tests in OrangeHRM application
+
+  Background:               # OrangeHRM.feature:4
+    Given I am on loginpage # OrangeHRMStepDefs.i_am_on_loginpage()
+
+  @orange
+  Scenario: Login in Digital Shopify Application                # OrangeHRM.feature:8
+    When I enter valid Username and Password and click on login # OrangeHRMStepDefs.iEnterValidUsernameAndPasswordAndClickOnLogin()
+    Then I should be logged into OrangeHRM                      # OrangeHRMStepDefs.i_should_be_logged_into_OrangeHRM()

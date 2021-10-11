@@ -1,0 +1,190 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2344315100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Googlesearch page",
+            "match": {
+              "location": "GoogleStepDefs.iAmOnGooglesearchPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2956435900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "search the google",
+        "description": "",
+        "id": "googlesearch;search-the-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1121519600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2648777900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter cognizant and click on search",
+            "match": {
+              "location": "GoogleStepDefs.iEnterCognizantAndClickOnSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6009600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should get the results",
+            "match": {
+              "location": "GoogleStepDefs.iShouldGetTheResults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3401506600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should click on the first link",
+            "match": {
+              "location": "GoogleStepDefs.iShouldClickOnTheFirstLink()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@google"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1726806200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Googlesearch page",
+            "match": {
+              "location": "GoogleStepDefs.iAmOnGooglesearchPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1404572700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Changing the theme",
+        "description": "",
+        "id": "googlesearch;changing-the-theme",
+        "after": [
+          {
+            "result": {
+              "duration": 921083600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128056200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Settings tab",
+            "match": {
+              "location": "GoogleStepDefs.iClickOnSettingsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1368782400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I change the theme",
+            "match": {
+              "location": "GoogleStepDefs.iChangeTheTheme()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@google"
+          }
+        ]
+      }
+    ],
+    "name": "Googlesearch",
+    "description": "As a user, I want to get results from google",
+    "id": "googlesearch",
+    "keyword": "Feature",
+    "uri": "Google.feature"
+  }
+]

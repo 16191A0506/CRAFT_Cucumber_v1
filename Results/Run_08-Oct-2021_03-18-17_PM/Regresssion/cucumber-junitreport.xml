@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.154063">
+<testcase classname="Googlesearch" name="search the google" time="18.154063">
+<system-out><![CDATA[Given I am on Googlesearch page.............................................passed
+When I enter cognizant and click on search..................................passed
+And I should get the results................................................passed
+Then I should click on the first link.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

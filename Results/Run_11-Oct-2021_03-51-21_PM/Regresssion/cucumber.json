@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7874638300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "DigitalShopifyStepDefs.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3989446000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login in Digital Shopify Application",
+        "description": "",
+        "id": "digital-shopify;login-in-digital-shopify-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 93900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4313508200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on login",
+            "match": {
+              "location": "DigitalShopifyStepDefs.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1178758400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be logged in",
+            "match": {
+              "location": "DigitalShopifyStepDefs.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@digital"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7852804300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "DigitalShopifyStepDefs.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3064852900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login in Digital Shopify Application",
+        "description": "",
+        "id": "digital-shopify;login-in-digital-shopify-application;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 90600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4208019300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on login",
+            "match": {
+              "location": "DigitalShopifyStepDefs.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1220199200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be logged in",
+            "match": {
+              "location": "DigitalShopifyStepDefs.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@digital"
+          }
+        ]
+      }
+    ],
+    "name": "Digital Shopify",
+    "description": "As a user, I want to run regression tests in Digital Shopify application",
+    "id": "digital-shopify",
+    "keyword": "Feature",
+    "uri": "DigitalShopify.feature"
+  }
+]

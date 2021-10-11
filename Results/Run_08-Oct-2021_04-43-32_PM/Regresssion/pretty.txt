@@ -1,0 +1,24 @@
+Feature: Googlesearch
+  As a user, I want to get results from google
+
+  Background:                       # Google.feature:4
+    Given I am on Googlesearch page # GoogleStepDefs.iAmOnGooglesearchPage()
+
+  @google
+  Scenario: search the google                  # Google.feature:8
+    When I enter cognizant and click on search # GoogleStepDefs.iEnterCognizantAndClickOnSearch()
+    And I should get the results               # GoogleStepDefs.iShouldGetTheResults()
+    Then I should click on the first link      # GoogleStepDefs.iShouldClickOnTheFirstLink()
+
+  Background:                       # Google.feature:4
+    Given I am on Googlesearch page # GoogleStepDefs.iAmOnGooglesearchPage()
+
+  @google
+  Scenario: Changing the theme   # Google.feature:14
+    When I click on Settings tab # GoogleStepDefs.iClickOnSettingsTab()
+    Then I change the theme      # GoogleStepDefs.iChangeTheTheme()
+      java.lang.IllegalMonitorStateException
+      	at java.lang.Object.wait(Native Method)
+      	at com.cucumbercraft.stepdefinitions.GoogleStepDefs.iChangeTheTheme(GoogleStepDefs.java:82)
+      	at ✽.Then I change the theme(Google.feature:16)
+

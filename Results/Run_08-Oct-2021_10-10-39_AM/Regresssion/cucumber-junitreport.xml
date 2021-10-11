@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.398985">
+<testcase classname="Login" name="Login with valid username and valid password" time="14.456042">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:512)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:51)&#13;&#10;&#9;at com.cucumbercraft.stepdefinitions.GeneralStepDefs.i_am_in_login_page(GeneralStepDefs.java:25)&#13;&#10;&#9;at ✽.Given I am in the login page of the application(Login.feature:6)&#13;&#10;"><![CDATA[Given I am in the login page of the application.............................failed
+When I login using the valid username mercury and the valid password mercury.skipped
+Then The application should log me in and navigate to the Flight Finder page.skipped
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.cucumbercraft.stepdefinitions.GeneralStepDefs.i_am_in_login_page(GeneralStepDefs.java:25)
+	at ✽.Given I am in the login page of the application(Login.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Login" name="Login with valid username and valid password 2" time="11.942943">
+<failure message="java.lang.AssertionError: expected [true] but found [false]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:512)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:51)&#13;&#10;&#9;at com.cucumbercraft.stepdefinitions.GeneralStepDefs.i_am_in_login_page(GeneralStepDefs.java:25)&#13;&#10;&#9;at ✽.Given I am in the login page of the application(Login.feature:6)&#13;&#10;"><![CDATA[Given I am in the login page of the application.............................failed
+When I login using the valid username test and the valid password test......skipped
+Then The application should log me in and navigate to the Flight Finder page.skipped
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.cucumbercraft.stepdefinitions.GeneralStepDefs.i_am_in_login_page(GeneralStepDefs.java:25)
+	at ✽.Given I am in the login page of the application(Login.feature:6)
+]]></failure>
+</testcase>
+</testsuite>

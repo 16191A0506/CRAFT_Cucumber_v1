@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 237490700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Googlesearch page",
+            "match": {
+              "location": "GoogleStepDefs.iAmOnGooglesearchPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4196667100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "search the google",
+        "description": "",
+        "id": "googlesearch;search-the-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1470909200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter cognizant and click on search",
+            "match": {
+              "location": "GoogleStepDefs.iEnterCognizantAndClickOnSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should get the results",
+            "match": {
+              "location": "GoogleStepDefs.iShouldGetTheResults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should click on the first link",
+            "match": {
+              "location": "GoogleStepDefs.iShouldClickOnTheFirstLink()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@orange"
+          }
+        ]
+      }
+    ],
+    "name": "Googlesearch",
+    "description": "As a user, I want to get results from google",
+    "id": "googlesearch",
+    "keyword": "Feature",
+    "uri": "Google.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2974884300,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertTrue(Assert.java:41)\r\n\tat org.testng.Assert.assertTrue(Assert.java:51)\r\n\tat com.cucumbercraft.stepdefinitions.OrangeHRMStepDefs.i_am_on_loginpage(OrangeHRMStepDefs.java:28)\r\n\tat ✽.Given I am on loginpage(OrangeHRM.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am on loginpage",
+            "match": {
+              "location": "OrangeHRMStepDefs.i_am_on_loginpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2919130000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login in Digital Shopify Application",
+        "description": "",
+        "id": "orangehrm;login-in-digital-shopify-application",
+        "after": [
+          {
+            "result": {
+              "duration": 986098200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter valid Username and Password and click on login",
+            "match": {
+              "location": "OrangeHRMStepDefs.iEnterValidUsernameAndPasswordAndClickOnLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I should be logged into OrangeHRM",
+            "match": {
+              "location": "OrangeHRMStepDefs.i_should_be_logged_into_OrangeHRM()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@orange"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM",
+    "description": "As a user, I want to run regression tests in OrangeHRM application",
+    "id": "orangehrm",
+    "keyword": "Feature",
+    "uri": "OrangeHRM.feature"
+  }
+]

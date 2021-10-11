@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2454401800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Googlesearch page",
+            "match": {
+              "location": "GoogleStepDefs.iAmOnGooglesearchPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3392647800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "search the google",
+        "description": "",
+        "id": "googlesearch;search-the-google",
+        "after": [
+          {
+            "result": {
+              "duration": 979097200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87248700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter cognizant and click on search",
+            "match": {
+              "location": "GoogleStepDefs.iEnterCognizantAndClickOnSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7946200,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertTrue(Assert.java:41)\r\n\tat org.testng.Assert.assertTrue(Assert.java:51)\r\n\tat com.cucumbercraft.stepdefinitions.GoogleStepDefs.iShouldGetTheResults(GoogleStepDefs.java:61)\r\n\tat ✽.And I should get the results(Google.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I should get the results",
+            "match": {
+              "location": "GoogleStepDefs.iShouldGetTheResults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I should click on the first link",
+            "match": {
+              "location": "GoogleStepDefs.iShouldClickOnTheFirstLink()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@google"
+          }
+        ]
+      }
+    ],
+    "name": "Googlesearch",
+    "description": "As a user, I want to get results from google",
+    "id": "googlesearch",
+    "keyword": "Feature",
+    "uri": "Google.feature"
+  }
+]
