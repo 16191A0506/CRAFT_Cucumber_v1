@@ -1,0 +1,10 @@
+Feature: Digital Shopify
+  As a user, I want to run regression tests in Digital Shopify application
+
+  Background:              # DigitalShopify.feature:4
+    Given I am on homepage # DigitalShopifyStepDefs.i_am_on_homepage()
+
+  @digital
+  Scenario: Login in Digital Shopify Application # DigitalShopify.feature:8
+    When I click on login                        # DigitalShopifyStepDefs.i_click_on_login()
+    Then I should be logged in                   # DigitalShopifyStepDefs.i_should_be_logged_in()
