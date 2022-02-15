@@ -31,8 +31,8 @@ public class DigitalShopifyStepDefs extends MasterStepDefs {
 	@When("I click on login")
 	public  void i_click_on_login() throws InterruptedException {
 		Thread.sleep(3000);
-		driver.findElement(By.id("email")).sendKeys("kirandeepmungara@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("1234567890");
+		driver.findElement(By.id("email")).sendKeys("test1502@cts.com");
+		driver.findElement(By.id("password")).sendKeys("1234");
 		driver.findElement(By.id("buttonlogin")).click();
 	}
 	@Then("I should be logged in")
